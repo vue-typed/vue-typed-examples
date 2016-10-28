@@ -1,0 +1,37 @@
+{
+  "name": "vue-typed-es6-webpack-example",
+  "version": "0.0.1",
+  "description": "Build Vue app in ES6 with VueTyped + Babel + Webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vue-typed/vue-typed-examples/vue-typed-es6-webpack-example"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "vue-typed",
+    "es6",
+    "webpack",
+    "babel"
+  ],
+  "author": "Budi Adiono",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.0.3",
+    "vue-typed": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.18.0",
+    "html-loader": "^0.4.4",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

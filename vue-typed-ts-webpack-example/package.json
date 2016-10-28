@@ -1,0 +1,35 @@
+{
+  "name": "vue-typed-ts-webpack-example",
+  "version": "0.0.1",
+  "description": "Build Vue app in Typescript with VueTyped + Babel + Webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vue-typed/vue-typed-examples/vue-typed-ts-webpack-example"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "vue-typed",
+    "typescript",
+    "webpack"
+  ],
+  "author": "Budi Adiono",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.0.3",
+    "vue-typed": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "6.0.41",
+    "html-loader": "^0.4.4",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
